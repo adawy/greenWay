@@ -59,7 +59,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     left: -250px;
-    z-index: 9;
+    z-index: 99;
     top: 0;
     background: #f7f8fa;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1118,6 +1118,36 @@
   100% {
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes preloader_4 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes preloader_4 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -2923,6 +2953,16 @@ body button.btn:focus {
           box-shadow: none;
 }
 
+body .flag {
+  width: 32px;
+  height: 22px;
+}
+
+body .dropdown-menu.show {
+  right: 0;
+  left: unset !important;
+}
+
 body .dropdown-toggle::after {
   display: none;
 }
@@ -3113,6 +3153,15 @@ body .work:hover {
   background: #fff;
 }
 
+body .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: #f7f8fa;
+}
+
 body #preloader_6 {
   position: fixed;
   width: 100%;
@@ -3140,35 +3189,5 @@ body #preloader_6 img {
   height: auto;
   -webkit-animation: preloader_4 1s infinite ease-in-out;
           animation: preloader_4 1s infinite ease-in-out;
-}
-
-@-webkit-keyframes preloader_4 {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes preloader_4 {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
 }
 /*# sourceMappingURL=main.css.map */

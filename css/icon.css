@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ylvxlp');
+    src:  url('../fonts/icomoon.eot?ylvxlp#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ylvxlp') format('truetype'),
+      url('../fonts/icomoon.woff?ylvxlp') format('woff'),
+      url('../fonts/icomoon.svg?ylvxlp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-9201:before {
+    content: "\e900";
+    color: #808dad;
+  }
+  .icon-arketing_1396817:before {
+    content: "\e901";
+    color: #fff;
+  }
+  .icon-Business_vision_growing:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .icon-Go-to-Web---Orange:before {
+    content: "\e903";
+    color: #808dad;
+  }
+  .icon-iconfinder_2202250_account_avatar_human_man_profile_icon1:before {
+    content: "\e904";
+    color: #808dad;
+  }
+  .icon-iconfinder_3586359_device_mobile_phone_smartphone_icon:before {
+    content: "\e905";
+    color: #808dad;
+  }
+  .icon-iconfinder_4831019_email_envelope_gmail_letter_letters_icon:before {
+    content: "\e906";
+    color: #808dad;
+  }
+  .icon-iconfinder_Bulb_Creative_Lightbulb_idea_startup_4265047:before {
+    content: "\e907";
+    color: #fff;
+  }
+  .icon-iconfinder_Competitive_advantage_3533412:before {
+    content: "\e908";
+    color: #808dad;
+  }
+  .icon-Layer_2:before {
+    content: "\e909";
+    color: #808dad;
+  }
+  .icon-noun_design_3537780:before {
+    content: "\e90a";
+    color: #808dad;
+  }
+  .icon-noun_development_1853144:before {
+    content: "\e90b";
+    color: #808dad;
+  }
+  .icon-noun_marketing_1396817:before {
+    content: "\e90c";
+    color: #808dad;
+  }
+  

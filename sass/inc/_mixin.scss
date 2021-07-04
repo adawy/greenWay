@@ -1,0 +1,13 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+}
+@mixin btn{
+    background: $mainColor;
+    border-color: $mainColor;
+    color: $thirdcolor;
+}
+@mixin btnhover{
+    background: $thirdcolor;
+    color: $mainColor;
+}

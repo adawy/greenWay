@@ -1,0 +1,160 @@
+@keyframes arrow {
+    from {
+        transform: translate(320px , 1174.066px)
+    }
+    to {
+        transform: translate(346.608px, 1174.066px)
+    }
+}
+@keyframes move-mob {
+   from {
+        transform: translate(0 , -6px)
+    }
+    to {
+        transform: translate(0, 0)
+    }
+}
+@keyframes arrow-rot {
+    from {
+        transform: translate(145.193px, 679.439px) rotate(100deg);
+    }
+    to {
+        transform: translate(145.193px, 679.439px) rotate(73deg);
+    }
+}
+@keyframes circle {
+    from {
+       margin-right: -10px;
+    }
+    to {
+        margin-right: 0px;
+    }
+}
+@keyframes move-arr {
+    from {
+        left: 25px
+    }
+    to {
+        left: 0px;
+    }
+}
+@keyframes move-n{
+    from {
+        margin-left: -25px
+    }
+    to {
+       margin-left: 0px;
+    }
+}
+@keyframes arrow-rot90 {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
+@keyframes storm-rot {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+@keyframes moveQ {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(20deg);
+    }
+}
+@keyframes screen {
+    0% {
+        opacity: 1;
+        stroke: $mainColor;
+        fill: $mainColor;
+        stroke-dasharray: 0;
+    }
+    30% {
+        opacity: 1;
+        stroke: $secandColor;
+        fill: $secandColor;
+        stroke-dasharray: 195;
+    }
+
+    90% {
+        opacity: 1;
+        stroke: $mainColor;
+        fill:$mainColor;
+    }
+
+    100% {
+        opacity: 1;
+        stroke: $secandColor;
+        fill: $secandColor;
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes light {
+    0% {
+        opacity: 1;
+        stroke: $secandColor;
+        fill: $secandColor;
+        stroke-dasharray: 0;
+    }
+    30% {
+        opacity: 1;
+        stroke: $secandColor;
+        fill: $secandColor;
+        stroke-dasharray: 195;
+    }
+
+    90% {
+        opacity: 1;
+        stroke: $mainColor;
+        fill: $mainColor;
+    }
+
+    100% {
+        opacity: 1;
+        stroke: $secandColor;
+        stroke-dashoffset: 0;
+        fill: $secandColor;
+    }
+}
+@keyframes screen1 {
+    0%{
+        transform: translate(930.644px, 613.939px) rotate(0);
+        transform-origin: 50%;
+    }
+    50% {
+        transform: translate(930.644px, 613.939px) rotate(-5px);
+        transform-origin: 50%;
+        fill: $secandColor;
+    }
+    100% {
+        transform: translate(930.644px, 613.939px) rotate(-10px);
+        transform-origin: 50%;
+    }
+}
+@keyframes top-arrow {
+    0%{
+       top:78px;
+    }
+    50% {
+        top:30px;
+    }
+    100% {
+        top:0;
+    }
+}
+@keyframes moving {
+    0%{
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}

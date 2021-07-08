@@ -6,8 +6,10 @@
     background: $mainColor;
     border-color: $mainColor;
     color: $thirdcolor;
+    transition: all 0.3s ease-in-out;
 }
 @mixin btnhover{
     background: $thirdcolor;
     color: $mainColor;
+    transition: all 0.3s ease-in-out;
 }

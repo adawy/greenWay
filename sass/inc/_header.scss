@@ -55,36 +55,32 @@
             }
             .drop-lang{
                 @include flex;
-                .dropdown{
-                    margin-inline-start: 20px;
-                    @media (max-width:1199px) {
-                        margin-inline-start: 0;
-                    }
-                    button{
-                        img{
-                            @media (max-width:767px) {
-                                margin-inline-end: 5px;
-                            }
+                a.lang-link{
+                    border-radius: 10px;
+                    padding: 6px;
+                    span{
+                        margin:0 10px;
+                        @media (max-width:767px) {
+                            display: none;
                         }
-                        span{
-                            @media (max-width:767px) {
-                                display: none;
-                            }
+                    }
+                    @include flex;
+                    @include btn;
+                    @media (max-width:767px) {
+                       background: transparent;
+                       padding:0;
+                       border-radius: 0;
+                    }
+                    &:hover{
+                        @include btnhover;
+                    }
+                    img{
+                        @media (max-width:767px) {
+                            margin-inline-end: 5px;
                         }
                     }
                 }
             }   
-        }
-        button{
-            border-radius: 10px;
-            span{
-                margin:0 10px;
-            }
-            @include flex;
-            @include btn;
-            &:hover{
-                @include btnhover;
-            }
         }
     }
     .banner{

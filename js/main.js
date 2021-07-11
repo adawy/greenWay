@@ -42,6 +42,8 @@ $(document).ready(function () {
     });
     //client slider
     $('.client .owl-carousel').owlCarousel({
+        touchDrag: false,
+        mouseDrag: false,
         loop:false ,
         margin:15,
         nav:true,

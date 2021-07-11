@@ -20,7 +20,7 @@ $(document).ready(function () {
      });
     //team slider
     $('.team .owl-carousel').owlCarousel({
-        loop:false ,
+        loop:true ,
         margin:15,
         nav:true,
         navText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>'],
@@ -42,7 +42,7 @@ $(document).ready(function () {
     });
     //client slider
     $('.client .owl-carousel').owlCarousel({
-        loop:false ,
+        loop:true ,
         margin:15,
         nav:true,
         navText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>'],

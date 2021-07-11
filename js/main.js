@@ -24,7 +24,7 @@ $(document).ready(function () {
         margin:15,
         nav:true,
         navText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>'],
-        autoplay:false,
+        autoplay:true,
         responsive:{
             0:{
                 items:1
@@ -46,7 +46,7 @@ $(document).ready(function () {
         margin:15,
         nav:true,
         navText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>'],
-        autoplay:false,
+        autoplay:true,
         responsive:{
             0:{
                 items:1
